@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    height: 100vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 545px) {
+  /* For mobile phones: */
+  #root {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 545.1px) {
+  /* For mobile phones: */
+  #root {
+    width: 400px;
+    margin-top:50px;
+  }
+  .app-header {
+      border-radius: 5px 5px 0px 0px;
+  }
+}
